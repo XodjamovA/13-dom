@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+    font-size: 26px;
+    transition: .2s ease all;
+    text-decoration-color: re;
+}
+
+a:not(:first-child) {
+    margin-left: 30px;
+    transition: .2s ease all;
+    text-decoration-color: red;
+}
+
+.active {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    transition: .2s ease all;
+}
